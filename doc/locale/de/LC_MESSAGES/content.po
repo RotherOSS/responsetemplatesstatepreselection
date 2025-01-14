@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 10:26+0200\n"
-"PO-Revision-Date: 2025-01-13 15:21+0000\n"
+"PO-Revision-Date: 2025-01-14 11:21+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/"
 "manual-responsetemplatesstatepreselection/master/de/>\n"
@@ -80,7 +80,7 @@ msgstr "Drittanbieter-Software"
 
 #: ../../content/index.rst:51
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: ../../content/index.rst:53
 msgid ""
@@ -131,11 +131,11 @@ msgstr "Konfigurationsreferenz"
 
 #: ../../content/index.rst:88
 msgid "Frontend::Admin::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration"
 
 #: ../../content/index.rst:91
 msgid "Frontend::Module###AdminResponseTemplatesStatePreselection"
-msgstr ""
+msgstr "Frontend::Module###AdminResponseTemplatesStatePreselection"
 
 #: ../../content/index.rst:92
 msgid "Frontend module registration for the admin interface."
@@ -143,11 +143,11 @@ msgstr ""
 
 #: ../../content/index.rst:95
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::AdminOverview"
 
 #: ../../content/index.rst:98
 msgid "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
-msgstr ""
+msgstr "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
 
 #: ../../content/index.rst:99
 msgid "Admin area navigation for the agent interface."
@@ -155,11 +155,13 @@ msgstr ""
 
 #: ../../content/index.rst:102
 msgid "Frontend::Admin::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::Loader"
 
 #: ../../content/index.rst:105
 msgid "Loader::Module::AdminResponseTemplatesStatePreselection###002-ResponseTemplatesStatePreselection"
 msgstr ""
+"Loader::Module::AdminResponseTemplatesStatePreselection###002-ResponseTemplat"
+"esStatePreselection"
 
 #: ../../content/index.rst:106
 msgid "Loader module registration for the agent interface."
@@ -167,11 +169,13 @@ msgstr ""
 
 #: ../../content/index.rst:109
 msgid "Frontend::Admin::ModuleRegistration::MainMenu"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::MainMenu"
 
 #: ../../content/index.rst:112
 msgid "Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-ResponseTemplatesStatePreselection"
 msgstr ""
+"Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-Response"
+"TemplatesStatePreselection"
 
 #: ../../content/index.rst:113
 msgid "Main menu item registration."
@@ -179,11 +183,11 @@ msgstr ""
 
 #: ../../content/index.rst:116
 msgid "Frontend::Agent"
-msgstr ""
+msgstr "Frontend::Agent"
 
 #: ../../content/index.rst:119
 msgid "PreApplicationModule###ResponseTemplatesStatePreselection"
-msgstr ""
+msgstr "PreApplicationModule###ResponseTemplatesStatePreselection"
 
 #: ../../content/index.rst:120
 msgid "Provides state preselection functionality for responses."
@@ -218,3 +222,5 @@ msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp| Author: OTRS AG / Version: 6.* / 2018-07-24"
 msgstr ""
+"Autor: |doc-vendor| / Version: |doc-version| / Datum der Veröffentlichung: "
+"|doc-datestamp| Autor: OTRS AG / Version: 6.* / 2018-07-24"
