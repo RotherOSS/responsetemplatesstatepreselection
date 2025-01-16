@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 10:26+0200\n"
-"PO-Revision-Date: 2025-01-14 11:21+0000\n"
+"PO-Revision-Date: 2025-01-16 10:21+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/"
 "manual-responsetemplatesstatepreselection/master/de/>\n"
@@ -34,10 +34,12 @@ msgid ""
 "Extends response template configuration by se- lectable ticket state "
 "which will be pre-select- ed upon answering a ticket."
 msgstr ""
+"Erweitert die Konfiguration von Antwortvorlagen um einen Ticketstatus, der "
+"bei der Beantwortung eines Tickets vorausgewählt wird."
 
 #: ../../content/index.rst:24
 msgid "Configuring pre-selected ticket states for response templates"
-msgstr ""
+msgstr "Konfigurieren von vorausgewählten Ticketstatus für Antwortvorlagen"
 
 #: ../../content/index.rst:26
 msgid ""
@@ -46,6 +48,10 @@ msgid ""
 "set a ticket state to response template. The ticket state will be pre-"
 "selected when answering a ticket via a response template."
 msgstr ""
+"Dieses Paket fügt eine neue Option namens \"Statusvorauswahl für Vorlagen\" "
+"innerhalb der \"Ticketeinstellungen\" im ADMIN-Panel hinzu. Sie können einen "
+"Ticketstatus für die Antwortvorlage festlegen. Der Ticketstatus wird bei der "
+"Beantwortung eines Tickets über eine Antwortvorlage vorausgewählt."
 
 #: ../../content/index.rst:30
 msgid ""
@@ -53,6 +59,9 @@ msgid ""
 "state. If this should not be the case, no next state will be pre-selected"
 " when answering a ticket."
 msgstr ""
+"Die konfigurierten Ticketstatus müssen im Ticketkontext als Folgestatus "
+"zugelassen sein. Sollte dies nicht der Fall sein, wird bei der Beantwortung "
+"eines Tickets kein Folgestatus vorausgewählt."
 
 #: ../../content/index.rst:35
 msgid "System requirements"
@@ -87,6 +96,8 @@ msgid ""
 "The following instructions explain how to install the package. There are "
 "two possibilities."
 msgstr ""
+"Die folgende Anleitung erklärt, wie Sie das Paket installieren. Es gibt zwei "
+"Möglichkeiten."
 
 #: ../../content/index.rst:58
 msgid ""
@@ -94,6 +105,10 @@ msgid ""
 "Interface (please note that you need to be in the \"admin\" group). "
 "https://localhost/otobo/index.pl?Action=AdminPackageManager"
 msgstr ""
+"Bitte verwenden Sie die folgende URL, um das Paket über die "
+"Administrationsoberfläche zu installieren (bitte beachten Sie, dass Sie sich "
+"in der Gruppe „admin“ befinden müssen). https://localhost/otobo/index."
+"pl?Action=AdminPackageManager"
 
 #: ../../content/index.rst:64
 msgid ""
@@ -101,16 +116,22 @@ msgid ""
 "use the following command line tool (\"bin/otobo.Console.pl "
 "Admin::Package::Install\") instead."
 msgstr ""
+"Wenn Sie die Administrationsoberfläche aus irgendeinem Grund nicht verwenden "
+"können, können Sie stattdessen das folgende Kommandozeilentool (\"bin/"
+"otobo.Console.pl Admin::Package::Install\") verwenden."
 
 #: ../../content/index.rst:75
 msgid "1. Set state for response template"
-msgstr ""
+msgstr "1. Status für Antwortvorlage festlegen"
 
 #: ../../content/index.rst:77
 msgid ""
 "Go to the admin interface, and look for the 'State pre-selection for "
 "Templates' within the 'Ticket Settings' section and click on this link."
 msgstr ""
+"Gehen Sie zur Verwaltungsoberfläche und suchen Sie im Abschnitt "
+"\"Ticketeinstellungen\" nach der \"Statusvorauswahl für Vorlagen\" und "
+"klicken Sie auf diesen Link."
 
 #: ../../content/index.rst:79
 msgid ""
@@ -118,12 +139,19 @@ msgid ""
 "screen click on one of the listed answer templates, then on the edit "
 "screen set a new value for 'Pre-selected ticket state' field."
 msgstr ""
+"Klicken Sie auf dem Bildschirm \"Vorauswahl des Ticketstatus für "
+"Antwortvorlagen verwalten\" auf eine der aufgelisteten Antwortvorlagen und "
+"geben Sie dann auf dem Bearbeitungsbildschirm einen neuen Wert für das Feld "
+"\"Vorausgewählter Ticketstatus\" ein."
 
 #: ../../content/index.rst:81
 msgid ""
 "Zoom a ticket and open the reply screen, verify the 'Pre-selected ticket "
 "state' should be set on the 'Next ticket state' field."
 msgstr ""
+"Zoomen Sie ein Ticket und öffnen Sie den Antwortbildschirm. Stellen Sie "
+"sicher, dass der \"Vorausgewählte Ticketstatus\" auf das Feld \"Nächster "
+"Ticketstatus\" gesetzt ist."
 
 #: ../../content/index.rst:85
 msgid "Configuration Reference"
@@ -139,7 +167,7 @@ msgstr "Frontend::Module###AdminResponseTemplatesStatePreselection"
 
 #: ../../content/index.rst:92
 msgid "Frontend module registration for the admin interface."
-msgstr ""
+msgstr "Registrierung des Frontend-Moduls für die Verwaltungsoberfläche."
 
 #: ../../content/index.rst:95
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
@@ -151,7 +179,7 @@ msgstr "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
 
 #: ../../content/index.rst:99
 msgid "Admin area navigation for the agent interface."
-msgstr ""
+msgstr "Navigation im Verwaltungsbereich für die Agentenoberfläche."
 
 #: ../../content/index.rst:102
 msgid "Frontend::Admin::ModuleRegistration::Loader"
@@ -165,7 +193,7 @@ msgstr ""
 
 #: ../../content/index.rst:106
 msgid "Loader module registration for the agent interface."
-msgstr ""
+msgstr "Registrierung des Lademoduls für die Agentenoberfläche."
 
 #: ../../content/index.rst:109
 msgid "Frontend::Admin::ModuleRegistration::MainMenu"
@@ -179,7 +207,7 @@ msgstr ""
 
 #: ../../content/index.rst:113
 msgid "Main menu item registration."
-msgstr ""
+msgstr "Hauptmenüpunkt Registrierung."
 
 #: ../../content/index.rst:116
 msgid "Frontend::Agent"
@@ -191,7 +219,7 @@ msgstr "PreApplicationModule###ResponseTemplatesStatePreselection"
 
 #: ../../content/index.rst:120
 msgid "Provides state preselection functionality for responses."
-msgstr ""
+msgstr "Bietet eine Statusvorauswahlfunktion für Antworten."
 
 #: ../../content/index.rst:126
 msgid "About"
