@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -23,8 +23,16 @@ use utf8;
 sub Data {
     my $Self = shift;
 
+    # Template: AdminResponseTemplatesStatePreselection
+    $Self->{Translation}->{'Manage ticket state pre-selections for response templates'} = '';
+    $Self->{Translation}->{'Edit Response'} = '';
+    $Self->{Translation}->{'Pre-selected ticket state'} = '';
+
     # SysConfig
+    $Self->{Translation}->{'Manage ticket state pre-selections for response templates.'} = '';
     $Self->{Translation}->{'Provides state preselection functionality for responses.'} = '';
+    $Self->{Translation}->{'State pre-selection for Templates'} = '';
+    $Self->{Translation}->{'Ticket state pre-selection for response templates'} = '';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (

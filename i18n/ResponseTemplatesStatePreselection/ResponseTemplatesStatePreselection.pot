@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ResponseTemplatesStatePreselection\n"
-"POT-Creation-Date: 2024-08-02 03:32+0000\n"
+"POT-Creation-Date: 2026-03-05 11:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,7 +10,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. Template: AdminResponseTemplatesStatePreselection
+msgid "Manage ticket state pre-selections for response templates"
+msgstr ""
+
+#. Template: AdminResponseTemplatesStatePreselection
+msgid "Edit Response"
+msgstr ""
+
+#. Template: AdminResponseTemplatesStatePreselection
+msgid "Pre-selected ticket state"
+msgstr ""
+
+#. SysConfig
+msgid "Manage ticket state pre-selections for response templates."
+msgstr ""
+
 #. SysConfig
 msgid "Provides state preselection functionality for responses."
+msgstr ""
+
+#. SysConfig
+msgid "State pre-selection for Templates"
+msgstr ""
+
+#. SysConfig
+msgid "Ticket state pre-selection for response templates"
 msgstr ""
 
