@@ -37,4 +37,3 @@ msgstr ""
 #. SysConfig
 msgid "Ticket state pre-selection for response templates"
 msgstr ""
-
