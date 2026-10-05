@@ -8,120 +8,123 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 10:26+0200\n"
+"POT-Creation-Date: 2026-07-14 11:01+0000\n"
 "PO-Revision-Date: 2026-10-05 07:41+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese <http://translate.otobo.org/projects/otobo-10-1/"
 "addons/manuals/responsetemplatesstatepreselection-documentation/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2026.9\n"
 
-#: ../../content/index.rst:16
-msgid "Sacrifice to Sphinx"
-msgstr "Sacrifice to Sphinx"
+#: ../content/index.rst:5
+#, fuzzy
+#| msgid "Contact"
+msgid "Contents"
+msgstr "連絡先"
 
-#: ../../content/index.rst:19
+#: ../content/index.rst:10
 msgid "Description"
 msgstr "説明"
 
-#: ../../content/index.rst:21
+#: ../content/index.rst:12
 msgid ""
-"Extends response template configuration by se- lectable ticket state "
-"which will be pre-select- ed upon answering a ticket."
+"Extends response template configuration by se- lectable ticket state which "
+"will be pre-select- ed upon answering a ticket."
 msgstr ""
-"応答テンプレートの設定を拡張し、チケットへの返信時に事前選択される"
-"チケットステータスを選択できるようにします。"
+"応答テンプレートの設定を拡張し、チケットへの返信時に事前選択されるチケットス"
+"テータスを選択できるようにします。"
 
-#: ../../content/index.rst:24
+#: ../content/index.rst:15
 msgid "Configuring pre-selected ticket states for response templates"
 msgstr "応答テンプレートの事前選択チケットステータスの設定"
 
-#: ../../content/index.rst:26
+#: ../content/index.rst:17
 msgid ""
-"This package adds a new option called \"State pre-selection for "
-"Templates\" within the \"Ticket Settings\" in the ADMIN panel. You can "
-"set a ticket state to response template. The ticket state will be pre-"
-"selected when answering a ticket via a response template."
+"This package adds a new option called \"State pre-selection for Templates\" "
+"within the \"Ticket Settings\" in the ADMIN panel. You can set a ticket "
+"state to response template. The ticket state will be pre-selected when "
+"answering a ticket via a response template."
 msgstr ""
 "このパッケージは、管理画面の「Ticket Settings」に「State pre-selection for "
-"Templates」という新しいオプションを追加します。応答テンプレートに"
-"チケットステータスを設定できます。応答テンプレートを使ってチケットに返信する"
-"際、そのチケットステータスが事前に選択されます。"
+"Templates」という新しいオプションを追加します。応答テンプレートにチケットス"
+"テータスを設定できます。応答テンプレートを使ってチケットに返信する際、そのチ"
+"ケットステータスが事前に選択されます。"
 
-#: ../../content/index.rst:30
+#: ../content/index.rst:21
 msgid ""
 "The configured ticket states must be allowed in ticket context as next "
-"state. If this should not be the case, no next state will be pre-selected"
-" when answering a ticket."
+"state. If this should not be the case, no next state will be pre-selected "
+"when answering a ticket."
 msgstr ""
 "設定するチケットステータスは、チケットの状況において次のステータスとして許可"
-"されている必要があります。許可されていない場合、チケットへの返信時に次の"
-"ステータスは事前選択されません。"
+"されている必要があります。許可されていない場合、チケットへの返信時に次のス"
+"テータスは事前選択されません。"
 
-#: ../../content/index.rst:35
+#: ../content/index.rst:25
 msgid "System requirements"
 msgstr "システム要件"
 
-#: ../../content/index.rst:38
+#: ../content/index.rst:28
 msgid "Framework"
 msgstr "フレームワーク"
 
-#: ../../content/index.rst:39
+#: ../content/index.rst:29
 msgid "OTOBO 10.1.x"
 msgstr "OTOBO 10.1.x"
 
-#: ../../content/index.rst:42
+#: ../content/index.rst:32
 msgid "Packages"
 msgstr "パッケージ"
 
-#: ../../content/index.rst:43 ../../content/index.rst:47
+#: ../content/index.rst:33 ../content/index.rst:37
 msgid "\\-"
 msgstr "\\-"
 
-#: ../../content/index.rst:46
+#: ../content/index.rst:36
 msgid "Third-party software"
 msgstr "サードパーティ製ソフトウェア"
 
-#: ../../content/index.rst:51
+#: ../content/index.rst:40
 msgid "Installation"
 msgstr "インストール"
 
-#: ../../content/index.rst:53
+#: ../content/index.rst:42
 msgid ""
-"The following instructions explain how to install the package. There are "
-"two possibilities."
-msgstr "以下では、パッケージのインストール方法を説明します。方法は2つあります。"
+"The following instructions explain how to install the package. There are two "
+"possibilities."
+msgstr ""
+"以下では、パッケージのインストール方法を説明します。方法は2つあります。"
 
-#: ../../content/index.rst:58
+#: ../content/index.rst:47
 msgid ""
 "Please use the following URL to install the package utilizing the Admin "
-"Interface (please note that you need to be in the \"admin\" group). "
-"https://localhost/otobo/index.pl?Action=AdminPackageManager"
+"Interface (please note that you need to be in the \"admin\" group). https://"
+"localhost/otobo/index.pl?Action=AdminPackageManager"
 msgstr ""
 "管理者インタフェースを使用してパッケージをインストールするには、次の URL を使"
 "用してください（\"admin\" グループに所属している必要があります）。https://"
 "localhost/otobo/index.pl?Action=AdminPackageManager"
 
-#: ../../content/index.rst:64
+#: ../content/index.rst:53
 msgid ""
-"Whenever you cannot use the Admin Interface for whatever reason, you may "
-"use the following command line tool (\"bin/otobo.Console.pl "
+"Whenever you cannot use the Admin Interface for whatever reason, you may use "
+"the following command line tool (\"bin/otobo.Console.pl "
 "Admin::Package::Install\") instead."
 msgstr ""
-"何らかの理由で管理者インタフェースを使用できない場合は、代わりに次の"
-"コマンドラインツール（\"bin/otobo.Console.pl Admin::Package::Install\"）を使"
-"用できます。"
+"何らかの理由で管理者インタフェースを使用できない場合は、代わりに次のコマンド"
+"ラインツール（\"bin/otobo.Console.pl Admin::Package::Install\"）を使用できま"
+"す。"
 
-#: ../../content/index.rst:75
+#: ../content/index.rst:63
 msgid "1. Set state for response template"
 msgstr "1. 応答テンプレートのステータスを設定する"
 
-#: ../../content/index.rst:77
+#: ../content/index.rst:65
 msgid ""
 "Go to the admin interface, and look for the 'State pre-selection for "
 "Templates' within the 'Ticket Settings' section and click on this link."
@@ -129,17 +132,17 @@ msgstr ""
 "管理者インタフェースで、'Ticket Settings' セクション内の 'State pre-"
 "selection for Templates' を探してクリックします。"
 
-#: ../../content/index.rst:79
+#: ../content/index.rst:67
 msgid ""
 "Once on the 'Manage ticket state pre-selections for response templates' "
-"screen click on one of the listed answer templates, then on the edit "
-"screen set a new value for 'Pre-selected ticket state' field."
+"screen click on one of the listed answer templates, then on the edit screen "
+"set a new value for 'Pre-selected ticket state' field."
 msgstr ""
 "'Manage ticket state pre-selections for response templates' 画面で、一覧にあ"
 "る応答テンプレートのいずれかをクリックし、編集画面で 'Pre-selected ticket "
 "state' 欄に新しい値を設定します。"
 
-#: ../../content/index.rst:81
+#: ../content/index.rst:69
 msgid ""
 "Zoom a ticket and open the reply screen, verify the 'Pre-selected ticket "
 "state' should be set on the 'Next ticket state' field."
@@ -147,102 +150,109 @@ msgstr ""
 "チケットをズーム表示して返信画面を開き、'Next ticket state' 欄に 'Pre-"
 "selected ticket state' が設定されていることを確認します。"
 
-#: ../../content/index.rst:85
+#: ../content/index.rst:72
 msgid "Configuration Reference"
 msgstr "設定リファレンス"
 
-#: ../../content/index.rst:88
+#: ../content/index.rst:75
 msgid "Frontend::Admin::ModuleRegistration"
 msgstr "Frontend::Admin::ModuleRegistration"
 
-#: ../../content/index.rst:91
+#: ../content/index.rst:78
 msgid "Frontend::Module###AdminResponseTemplatesStatePreselection"
 msgstr "Frontend::Module###AdminResponseTemplatesStatePreselection"
 
-#: ../../content/index.rst:92
+#: ../content/index.rst:79
 msgid "Frontend module registration for the admin interface."
 msgstr "管理者インタフェース用のフロントエンドモジュールの登録。"
 
-#: ../../content/index.rst:95
+#: ../content/index.rst:82
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
 msgstr "Frontend::Admin::ModuleRegistration::AdminOverview"
 
-#: ../../content/index.rst:98
+#: ../content/index.rst:85
 msgid "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
 msgstr "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
 
-#: ../../content/index.rst:99
+#: ../content/index.rst:86
 msgid "Admin area navigation for the agent interface."
 msgstr "担当者インタフェースの管理画面のナビゲーション。"
 
-#: ../../content/index.rst:102
+#: ../content/index.rst:89
 msgid "Frontend::Admin::ModuleRegistration::Loader"
 msgstr "Frontend::Admin::ModuleRegistration::Loader"
 
-#: ../../content/index.rst:105
-msgid "Loader::Module::AdminResponseTemplatesStatePreselection###002-ResponseTemplatesStatePreselection"
+#: ../content/index.rst:92
+msgid ""
+"Loader::Module::AdminResponseTemplatesStatePreselection###002-"
+"ResponseTemplatesStatePreselection"
 msgstr ""
 "Loader::Module::AdminResponseTemplatesStatePreselection###002-"
 "ResponseTemplatesStatePreselection"
 
-#: ../../content/index.rst:106
+#: ../content/index.rst:93
 msgid "Loader module registration for the agent interface."
 msgstr "担当者インタフェース用のローダーモジュールの登録。"
 
-#: ../../content/index.rst:109
+#: ../content/index.rst:96
 msgid "Frontend::Admin::ModuleRegistration::MainMenu"
 msgstr "Frontend::Admin::ModuleRegistration::MainMenu"
 
-#: ../../content/index.rst:112
-msgid "Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-ResponseTemplatesStatePreselection"
+#: ../content/index.rst:99
+msgid ""
+"Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-"
+"ResponseTemplatesStatePreselection"
 msgstr ""
 "Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-"
 "ResponseTemplatesStatePreselection"
 
-#: ../../content/index.rst:113
+#: ../content/index.rst:100
 msgid "Main menu item registration."
 msgstr "メインメニュー項目の登録。"
 
-#: ../../content/index.rst:116
+#: ../content/index.rst:103
 msgid "Frontend::Agent"
 msgstr "Frontend::Agent"
 
-#: ../../content/index.rst:119
+#: ../content/index.rst:106
 msgid "PreApplicationModule###ResponseTemplatesStatePreselection"
 msgstr "PreApplicationModule###ResponseTemplatesStatePreselection"
 
-#: ../../content/index.rst:120
+#: ../content/index.rst:107
 msgid "Provides state preselection functionality for responses."
 msgstr "応答用のステータス事前選択機能を提供します。"
 
-#: ../../content/index.rst:126
+#: ../content/index.rst:110
 msgid "About"
 msgstr "概要"
 
-#: ../../content/index.rst:129
+#: ../content/index.rst:113
 msgid "Contact"
 msgstr "連絡先"
 
-#: ../../content/index.rst:130
+#: ../content/index.rst:114
 msgid "Rother OSS GmbH"
 msgstr "Rother OSS GmbH"
 
-#: ../../content/index.rst:131
+#: ../content/index.rst:115
 msgid "Email: hello@otobo.de"
 msgstr "メール: hello@otobo.de"
 
-#: ../../content/index.rst:132
+#: ../content/index.rst:116
 msgid "Web: https://otobo.de"
 msgstr "Web: https://otobo.de"
 
-#: ../../content/index.rst:135
+#: ../content/index.rst:119
 msgid "Version"
 msgstr "バージョン"
 
-#: ../../content/index.rst:136
+#: ../content/index.rst:120
 msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp| Author: OTRS AG / Version: 6.* / 2018-07-24"
 msgstr ""
 "作成者: |doc-vendor| / バージョン: |doc-version| / リリース日: |doc-"
 "datestamp| Author: OTRS AG / Version: 6.* / 2018-07-24"
+
+#~ msgid "Sacrifice to Sphinx"
+#~ msgstr "Sacrifice to Sphinx"
