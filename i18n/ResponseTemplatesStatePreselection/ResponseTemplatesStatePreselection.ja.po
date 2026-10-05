@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ResponseTemplatesStatePreselection\n"
 "POT-Creation-Date: 2026-03-05 11:12+0000\n"
-"PO-Revision-Date: 2026-10-05 07:41+0000\n"
+"PO-Revision-Date: 2026-10-05 09:41+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese <http://translate.otobo.org/projects/otobo-10-1/"
 "addons/responsetemplatesstatepreselection/ja/>\n"
@@ -15,19 +15,19 @@ msgstr ""
 
 #. Template: AdminResponseTemplatesStatePreselection
 msgid "Manage ticket state pre-selections for response templates"
-msgstr ""
+msgstr "応答テンプレートのチケット状態の事前選択を管理する"
 
 #. Template: AdminResponseTemplatesStatePreselection
 msgid "Edit Response"
-msgstr ""
+msgstr "応答の編集"
 
 #. Template: AdminResponseTemplatesStatePreselection
 msgid "Pre-selected ticket state"
-msgstr ""
+msgstr "事前に選択されたチケットのステータス"
 
 #. SysConfig
 msgid "Manage ticket state pre-selections for response templates."
-msgstr ""
+msgstr "応答テンプレートのチケット状態の事前選択を管理します。"
 
 #. SysConfig
 msgid "Provides state preselection functionality for responses."
@@ -35,8 +35,8 @@ msgstr "応答用のステータス事前選択機能を提供します。"
 
 #. SysConfig
 msgid "State pre-selection for Templates"
-msgstr ""
+msgstr "テンプレートのステータスの事前選択"
 
 #. SysConfig
 msgid "Ticket state pre-selection for response templates"
-msgstr ""
+msgstr "応答テンプレートのチケット・ステータスの事前選択"
