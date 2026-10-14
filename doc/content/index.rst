@@ -12,7 +12,7 @@ Sacrifice to Sphinx
 Description
 ===========
 
-Extends response template configuration by se- lectable ticket state which will be pre-select- ed upon answering a ticket. 
+Extends response template configuration by selectable ticket state which will be pre-selected upon answering a ticket. 
 
 Configuring pre-selected ticket states for response templates
 ---------------

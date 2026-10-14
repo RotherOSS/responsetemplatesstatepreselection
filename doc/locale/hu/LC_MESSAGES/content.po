@@ -31,9 +31,11 @@ msgstr "Leírás"
 
 #: ../content/index.rst:12
 msgid ""
-"Extends response template configuration by se- lectable ticket state which "
-"will be pre-select- ed upon answering a ticket."
+"Extends response template configuration by selectable ticket state which "
+"will be pre-selected upon answering a ticket."
 msgstr ""
+"Kiterjeszti a válaszsablon beállítását választható jegyállapottal, amely "
+"előre ki lesz választva egy jegy megválaszolásakor."
 
 #: ../content/index.rst:15
 msgid "Configuring pre-selected ticket states for response templates"

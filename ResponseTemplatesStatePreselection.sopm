@@ -7,6 +7,8 @@
     <URL>https://rother-oss.com/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">Extends response template configuration by selectable ticket state which will be pre-selected upon answering a ticket.</Description>
+    <Description Lang="de">Erweitert die Konfiguration von Antwortvorlagen um einen Ticketstatus, der bei der Beantwortung eines Tickets vorausgewählt wird.</Description>
+    <Description Lang="hu">Kiterjeszti a válaszsablon beállítását választható jegyállapottal, amely előre ki lesz választva egy jegy megválaszolásakor.</Description>
     <Filelist>
         <File Permission="660" Location="doc/en/ResponseTemplatesStatePreselection.pdf" />
         <File Permission="660" Location="Kernel/Config/Files/XML/ResponseTemplatesStatePreselection.xml" />

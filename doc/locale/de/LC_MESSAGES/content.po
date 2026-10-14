@@ -33,8 +33,8 @@ msgstr "Beschreibung"
 
 #: ../content/index.rst:12
 msgid ""
-"Extends response template configuration by se- lectable ticket state which "
-"will be pre-select- ed upon answering a ticket."
+"Extends response template configuration by selectable ticket state which "
+"will be pre-selected upon answering a ticket."
 msgstr ""
 "Erweitert die Konfiguration von Antwortvorlagen um einen Ticketstatus, der "
 "bei der Beantwortung eines Tickets vorausgewählt wird."
