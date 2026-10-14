@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Documentation dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-14 11:01+0000\n"
+"POT-Creation-Date: 2026-10-14 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Description"
 msgstr ""
 
 #: ../content/index.rst:12
-msgid "Extends response template configuration by se- lectable ticket state which will be pre-select- ed upon answering a ticket."
+msgid "Extends response template configuration by selectable ticket state which will be pre-selected upon answering a ticket."
 msgstr ""
 
 #: ../content/index.rst:15
