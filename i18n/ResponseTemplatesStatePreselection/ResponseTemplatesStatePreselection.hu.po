@@ -2,38 +2,41 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ResponseTemplatesStatePreselection\n"
 "POT-Creation-Date: 2026-03-05 11:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-10-14 09:41+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-10-1/"
+"addons/responsetemplatesstatepreselection/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.9\n"
 
 #. Template: AdminResponseTemplatesStatePreselection
 msgid "Manage ticket state pre-selections for response templates"
-msgstr ""
+msgstr "Jegyállapot előre kiválasztásainak kezelése a válaszsablonoknál"
 
 #. Template: AdminResponseTemplatesStatePreselection
 msgid "Edit Response"
-msgstr ""
+msgstr "Válasz szerkesztése"
 
 #. Template: AdminResponseTemplatesStatePreselection
 msgid "Pre-selected ticket state"
-msgstr ""
+msgstr "Előre kiválasztott jegyállapot"
 
 #. SysConfig
 msgid "Manage ticket state pre-selections for response templates."
-msgstr ""
+msgstr "Jegyállapot előre kiválasztásainak kezelése a válaszsablonoknál."
 
 #. SysConfig
 msgid "Provides state preselection functionality for responses."
-msgstr ""
+msgstr "Állapot előre kiválasztásának funkcionalitását nyújtja a válaszoknál."
 
 #. SysConfig
 msgid "State pre-selection for Templates"
-msgstr ""
+msgstr "Állapot előre kiválasztása a sablonoknál"
 
 #. SysConfig
 msgid "Ticket state pre-selection for response templates"
-msgstr ""
+msgstr "Jegyállapot előre kiválasztása a válaszsablonoknál"
