@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-14 11:01+0000\n"
-"PO-Revision-Date: 2026-10-14 09:41+0000\n"
+"PO-Revision-Date: 2026-10-21 11:41+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-10-1/"
 "addons/manuals/responsetemplatesstatepreselection-documentation/hu/>\n"
@@ -34,10 +34,12 @@ msgid ""
 "Extends response template configuration by se- lectable ticket state which "
 "will be pre-select- ed upon answering a ticket."
 msgstr ""
+"Kiterjeszti a válaszsablon beállítását választható jegyállapottal, amely "
+"előre ki lesz választva egy jegy megválaszolásakor."
 
 #: ../content/index.rst:15
 msgid "Configuring pre-selected ticket states for response templates"
-msgstr ""
+msgstr "Előre kiválasztott jegyállapotok beállítása a válaszsablonoknál"
 
 #: ../content/index.rst:17
 msgid ""
@@ -46,6 +48,10 @@ msgid ""
 "state to response template. The ticket state will be pre-selected when "
 "answering a ticket via a response template."
 msgstr ""
+"Ez a csomag egy „Állapot előre kiválasztása a sablonoknál” nevű új "
+"lehetőséget ad hozzá az adminisztrátori panel „Jegybeállítások” szakaszához. "
+"Beállíthat egy jegyállapotot a válaszsablonhoz. A jegyállapot előre ki lesz "
+"választva, ha válaszsablonon keresztül válaszol egy jegyre."
 
 #: ../content/index.rst:21
 msgid ""
@@ -53,6 +59,9 @@ msgid ""
 "state. If this should not be the case, no next state will be pre-selected "
 "when answering a ticket."
 msgstr ""
+"A beállított jegyállapotoknak következő állapotként kell engedélyezve "
+"lenniük a jegy környezetében. Ha nem ez lenne a helyzet, akkor nem lesz "
+"következő állapot előre kiválasztva, ha megválaszolnak egy jegyet."
 
 #: ../content/index.rst:25
 msgid "System requirements"
@@ -80,13 +89,15 @@ msgstr "Harmadik féltől származó szoftverek"
 
 #: ../content/index.rst:40
 msgid "Installation"
-msgstr ""
+msgstr "Telepítés"
 
 #: ../content/index.rst:42
 msgid ""
 "The following instructions explain how to install the package. There are two "
 "possibilities."
 msgstr ""
+"A következő utasítások elmagyarázzák, hogy hogyan kell telepíteni a "
+"csomagot. Két lehetőség van."
 
 #: ../content/index.rst:47
 msgid ""
@@ -94,6 +105,9 @@ msgid ""
 "Interface (please note that you need to be in the \"admin\" group). https://"
 "localhost/otobo/index.pl?Action=AdminPackageManager"
 msgstr ""
+"Használja a következő URL-t a csomag telepítéséhez az adminisztrátori "
+"felület használatával (ne feledje, hogy az „admin” csoportban kell lennie): "
+"https://localhost/otobo/index.pl?Action=AdminPackageManager"
 
 #: ../content/index.rst:53
 msgid ""
@@ -101,16 +115,22 @@ msgid ""
 "the following command line tool (\"bin/otobo.Console.pl "
 "Admin::Package::Install\") instead."
 msgstr ""
+"Amennyiben bármilyen okból nem tudja használni az adminisztrátori felületet, "
+"akkor a következő parancssori eszközt („bin/otobo.Console.pl "
+"Admin::Package::Install”) is használhatja helyette."
 
 #: ../content/index.rst:63
 msgid "1. Set state for response template"
-msgstr ""
+msgstr "1. Állapot beállítása a válaszsablonhoz"
 
 #: ../content/index.rst:65
 msgid ""
 "Go to the admin interface, and look for the 'State pre-selection for "
 "Templates' within the 'Ticket Settings' section and click on this link."
 msgstr ""
+"Menjen az adminisztrátori felületre, és keresse meg az „Állapot előre "
+"kiválasztása a sablonoknál” modult a „Jegybeállítások” szakaszon belül, majd "
+"kattintson erre a hivatkozásra."
 
 #: ../content/index.rst:67
 msgid ""
@@ -118,12 +138,19 @@ msgid ""
 "screen click on one of the listed answer templates, then on the edit screen "
 "set a new value for 'Pre-selected ticket state' field."
 msgstr ""
+"Miután megnyitotta a „Jegyállapot előre kiválasztásainak kezelése a "
+"válaszsablonoknál” képernyőt, kattintson a felsorolt válaszsablonok "
+"egyikére, majd a szerkesztőképernyőn állítson be új értéket az „Előre "
+"kiválasztott jegyállapot” mezőhöz."
 
 #: ../content/index.rst:69
 msgid ""
 "Zoom a ticket and open the reply screen, verify the 'Pre-selected ticket "
 "state' should be set on the 'Next ticket state' field."
 msgstr ""
+"Válasszon egy jegyet, és nyissa meg a válaszképernyőt, majd ellenőrizze, "
+"hogy az előre kiválasztott jegyállapot be van-e állítva a „Következő "
+"jegyállapot” mezőben."
 
 #: ../content/index.rst:72
 msgid "Configuration Reference"
@@ -135,7 +162,7 @@ msgstr "Frontend::Admin::ModuleRegistration"
 
 #: ../content/index.rst:78
 msgid "Frontend::Module###AdminResponseTemplatesStatePreselection"
-msgstr ""
+msgstr "Frontend::Module###AdminResponseTemplatesStatePreselection"
 
 #: ../content/index.rst:79
 msgid "Frontend module registration for the admin interface."
@@ -147,7 +174,7 @@ msgstr "Frontend::Admin::ModuleRegistration::AdminOverview"
 
 #: ../content/index.rst:85
 msgid "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
-msgstr ""
+msgstr "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
 
 #: ../content/index.rst:86
 msgid "Admin area navigation for the agent interface."
@@ -162,6 +189,8 @@ msgid ""
 "Loader::Module::AdminResponseTemplatesStatePreselection###002-"
 "ResponseTemplatesStatePreselection"
 msgstr ""
+"Loader::Module::AdminResponseTemplatesStatePreselection###002-"
+"ResponseTemplatesStatePreselection"
 
 #: ../content/index.rst:93
 msgid "Loader module registration for the agent interface."
@@ -176,6 +205,8 @@ msgid ""
 "Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-"
 "ResponseTemplatesStatePreselection"
 msgstr ""
+"Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-"
+"ResponseTemplatesStatePreselection"
 
 #: ../content/index.rst:100
 msgid "Main menu item registration."
@@ -183,11 +214,11 @@ msgstr "Főmenü elem regisztráció."
 
 #: ../content/index.rst:103
 msgid "Frontend::Agent"
-msgstr ""
+msgstr "Frontend::Agent"
 
 #: ../content/index.rst:106
 msgid "PreApplicationModule###ResponseTemplatesStatePreselection"
-msgstr ""
+msgstr "PreApplicationModule###ResponseTemplatesStatePreselection"
 
 #: ../content/index.rst:107
 msgid "Provides state preselection functionality for responses."
@@ -222,6 +253,8 @@ msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp| Author: OTRS AG / Version: 6.* / 2018-07-24"
 msgstr ""
+"Szerző: |doc-vendor| / Verzió: |doc-version| / Kiadás dátuma: |doc-"
+"datestamp| Szerző: OTRS AG / Verzió: 6.* / 2018-07-24"
 
 #~ msgid "Sacrifice to Sphinx"
 #~ msgstr "Áldozat a Szfinxnek"
