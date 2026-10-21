@@ -24,15 +24,15 @@ sub Data {
     my $Self = shift;
 
     # Template: AdminResponseTemplatesStatePreselection
-    $Self->{Translation}->{'Manage ticket state pre-selections for response templates'} = '';
-    $Self->{Translation}->{'Edit Response'} = '';
-    $Self->{Translation}->{'Pre-selected ticket state'} = '';
+    $Self->{Translation}->{'Manage ticket state pre-selections for response templates'} = 'Jegyállapot előre kiválasztásainak kezelése a válaszsablonoknál';
+    $Self->{Translation}->{'Edit Response'} = 'Válasz szerkesztése';
+    $Self->{Translation}->{'Pre-selected ticket state'} = 'Előre kiválasztott jegyállapot';
 
     # SysConfig
-    $Self->{Translation}->{'Manage ticket state pre-selections for response templates.'} = '';
-    $Self->{Translation}->{'Provides state preselection functionality for responses.'} = '';
-    $Self->{Translation}->{'State pre-selection for Templates'} = '';
-    $Self->{Translation}->{'Ticket state pre-selection for response templates'} = '';
+    $Self->{Translation}->{'Manage ticket state pre-selections for response templates.'} = 'Jegyállapot előre kiválasztásainak kezelése a válaszsablonoknál.';
+    $Self->{Translation}->{'Provides state preselection functionality for responses.'} = 'Állapot előre kiválasztásának funkcionalitását nyújtja a válaszoknál.';
+    $Self->{Translation}->{'State pre-selection for Templates'} = 'Állapot előre kiválasztása a sablonoknál';
+    $Self->{Translation}->{'Ticket state pre-selection for response templates'} = 'Jegyállapot előre kiválasztása a válaszsablonoknál';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
