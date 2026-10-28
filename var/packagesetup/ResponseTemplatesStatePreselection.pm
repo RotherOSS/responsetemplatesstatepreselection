@@ -1,8 +1,8 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, http://otrs.com/
 # OTOBO is a web-based ticketing system for service organisations.
 # --
-# Copyright (C) 2019-2022 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2001-2018 OTRS AG, http://otrs.com/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -131,7 +131,7 @@ my $Result = $CodeObject->CodeUpgradeMergeFromLowerThan_5_0_1();
 
 =cut
 
-sub CodeUpgradeMergeFromLowerThan_5_0_1 {    ## no critic
+sub CodeUpgradeMergeFromLowerThan_5_0_1 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # change configurations to match the new module location.
@@ -243,7 +243,7 @@ sub _MigrateRenamedConfigs {
             FilePath                   => $OTRS5ConfigFile,
             PackageSettings            => [ values %LookupNewConfigNames ],
             PackageLookupNewConfigName => \%LookupNewConfigNames,
-            NoOutput => 1,    # we do not want to print status output to the screen
+            NoOutput                   => 1,                                         # we do not want to print status output to the screen
         );
 
         # Deploy only the package settings (even if the migration of

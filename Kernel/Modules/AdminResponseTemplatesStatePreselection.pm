@@ -1,8 +1,8 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, http://otrs.com/
 # OTOBO is a web-based ticketing system for service organisations.
 # --
-# Copyright (C) 2019-2022 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2001-2018 OTRS AG, http://otrs.com/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -45,7 +45,7 @@ sub Run {
     # change
     # ------------------------------------------------------------ #
     if ( $Self->{Subaction} eq 'Change' ) {
-        my $ID = $ParamObject->GetParam( Param => 'ID' ) || '';
+        my $ID   = $ParamObject->GetParam( Param => 'ID' ) || '';
         my %Data = $ResponseTicketStatePreSelectionObject->StandardTemplateGet(
             ID => $ID,
         );
