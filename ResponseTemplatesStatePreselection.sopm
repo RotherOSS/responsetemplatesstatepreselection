@@ -8,7 +8,6 @@
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">Extends response template configuration by selectable ticket state which will be pre-selected upon answering a ticket.</Description>
     <Filelist>
-        <File Permission="660" Location="doc/en/ResponseTemplatesStatePreselection.pdf" />
         <File Permission="660" Location="Kernel/Config/Files/XML/ResponseTemplatesStatePreselection.xml" />
         <File Permission="660" Location="Kernel/Language/de_ResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="Kernel/Language/hu_ResponseTemplatesStatePreselection.pm" />
